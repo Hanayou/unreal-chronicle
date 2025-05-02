@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap");
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(
+    circle at bottom center,
+    #1a1a1a 0%,
+    #0d0d0d 100%
+  );
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  gap: 16px;
+}
+
+.heroInner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: "Cinzel", serif;
+  font-size: 4rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.subtitle {
+  font-family: "Cinzel", serif;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #ffa500;
+}
+
+.tagline {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: #cccccc;
+}
+
+.buttons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.button {
+  background: linear-gradient(to right, #ff6a00, #ffa500);
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+  transition: box-shadow 0.3s;
+}
+
+.button:hover {
+  box-shadow: 0 0 15px #ff6a00cc;
+}
+
+.buttonSecondary {
+  background: none;
+  border: 2px solid #ff6a00;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  font-family: "Inter", sans-serif;
+  color: #ff6a00;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.buttonSecondary:hover {
+  background: #ff6a0010;
+  border-color: #ffa500;
+  color: #ffa500;
+}
+
+.glow {
+  filter: drop-shadow(0px 0px 7px rgb(255, 130, 46));
+  width: 150px;
+}
