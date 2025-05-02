@@ -5,7 +5,7 @@ import styles from "./index.module.css";
 export default function Home(): React.ReactNode {
   return (
     <Layout
-      title="Unreal Chronicle"
+      title="Home"
       description="An adventurer’s handbook to Unreal Engine"
     >
       <main className={styles.hero}>

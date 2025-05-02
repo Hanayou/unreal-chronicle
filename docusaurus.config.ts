@@ -5,9 +5,9 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
-  favicon: "img/favicon.ico",
+  title: "Unreal Chronicle",
+  tagline: "An adventurer’s handbook to Unreal Engine",
+  favicon: "unreal-engine2.svg",
 
   // Set the production url of your site here
   url: "https://unreal-chronicle.hanayou.dev/",
@@ -39,8 +39,7 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/Hanayou/unreal-chronicle",
         },
         blog: {
           showReadingTime: true,
@@ -48,10 +47,6 @@ const config: Config = {
             type: ["rss", "atom"],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -66,10 +61,10 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
+    image: "unreal-engine2.svg",
     navbar: {
       logo: {
-        alt: "My Site Logo",
+        alt: "Site Logo",
         src: "unreal-engine2.svg",
       },
       items: [
@@ -77,11 +72,11 @@ const config: Config = {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "Tutorial",
+          label: "Guides",
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/Hanayou/unreal-chronicle",
           label: "GitHub",
           position: "right",
         },
@@ -91,11 +86,15 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Learning",
           items: [
             {
-              label: "Tutorial",
+              label: "Guides",
               to: "/docs/intro",
+            },
+            {
+              label: "Blog",
+              to: "/blog",
             },
           ],
         },
@@ -103,29 +102,8 @@ const config: Config = {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "X",
-              href: "https://x.com/docusaurus",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              label: "YouTube",
+              href: "https://www.youtube.com/@Hanayou",
             },
           ],
         },
