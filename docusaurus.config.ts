@@ -63,6 +63,7 @@ const config: Config = {
     // Replace with your project's social card
     image: "unreal-engine2.svg",
     navbar: {
+      title: "Unreal Chronicle",
       logo: {
         alt: "Site Logo",
         src: "unreal-engine2.svg",
@@ -70,11 +71,21 @@ const config: Config = {
       items: [
         {
           type: "docSidebar",
-          sidebarId: "tutorialSidebar",
+          sidebarId: "sidebar",
           position: "left",
           label: "Guides",
         },
         { to: "/blog", label: "Blog", position: "left" },
+        {
+          to: "/about",
+          label: "About",
+          position: "left",
+        },
+        {
+          href: "https://youtube.com/@HanayouDev",
+          label: "YouTube",
+          position: "right",
+        },
         {
           href: "https://github.com/Hanayou/unreal-chronicle",
           label: "GitHub",
@@ -103,7 +114,7 @@ const config: Config = {
           items: [
             {
               label: "YouTube",
-              href: "https://www.youtube.com/@Hanayou",
+              href: "https://www.youtube.com/@HanayouDev",
             },
           ],
         },

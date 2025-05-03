@@ -19,7 +19,7 @@ export default function Home(): React.ReactNode {
             Forge worlds. Master the arcane scripts. Chronicle your legacy.
           </p>
           <div className={styles.buttons}>
-            <a className={styles.button} href="/docs/intro">
+            <a className={styles.button} href="/docs/introduction">
               Start Your Journey
             </a>
             <a className={styles.buttonSecondary} href="/blog">
@@ -28,6 +28,11 @@ export default function Home(): React.ReactNode {
           </div>
         </div>
       </main>
+      <small className={styles.footer}>
+        Yes, this page is very empty and also semi-broken in light mode. I'll
+        fix it and add more content to this homepage...eventually...
+        <em>probably</em> ™ :)
+      </small>
     </Layout>
   );
 }
