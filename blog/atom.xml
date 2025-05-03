@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://Hanayou.github.io/blog</id>
+    <id>https://unreal-chronicle.hanayou.dev/blog</id>
     <title>Unreal Chronicle Blog</title>
     <updated>2025-05-03T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://Hanayou.github.io/blog"/>
+    <link rel="alternate" href="https://unreal-chronicle.hanayou.dev/blog"/>
     <subtitle>Unreal Chronicle Blog</subtitle>
-    <icon>https://Hanayou.github.io/unreal-engine2.svg</icon>
+    <icon>https://unreal-chronicle.hanayou.dev/unreal-engine2.svg</icon>
     <entry>
         <title type="html"><![CDATA[Welcome to Unreal Chronicle – An Adventurer’s Guide to Unreal Engine]]></title>
-        <id>https://Hanayou.github.io/blog/welcome</id>
-        <link href="https://Hanayou.github.io/blog/welcome"/>
+        <id>https://unreal-chronicle.hanayou.dev/blog/welcome</id>
+        <link href="https://unreal-chronicle.hanayou.dev/blog/welcome"/>
         <updated>2025-05-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Embark on your Unreal Engine journey with guides, maps, and mystical knowledge to light your way.]]></summary>
         <content type="html"><![CDATA[<blockquote>
@@ -18,12 +18,12 @@
 </blockquote>
 <p>Greetings, brave soul!</p>
 <p>You’ve stumbled upon <strong>Unreal Chronicle – An Adventurer's Guide to Unreal Engine</strong>. Whether by fate, fortune, or fumbling through a corrupted project file, you are welcome here. This is a place for all adventurers of game development—fresh apprentices or seasoned spell-casters of C++ and Blueprints alike.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-the-tale-so-far">🐉 The Tale So Far...<a href="https://hanayou.github.io/blog/welcome#-the-tale-so-far" class="hash-link" aria-label="Direct link to 🐉 The Tale So Far..." title="Direct link to 🐉 The Tale So Far...">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-the-tale-so-far">🐉 The Tale So Far...<a href="https://unreal-chronicle.hanayou.dev/blog/welcome#-the-tale-so-far" class="hash-link" aria-label="Direct link to 🐉 The Tale So Far..." title="Direct link to 🐉 The Tale So Far...">​</a></h2>
 <p>Many moons ago, I posted a <a href="https://www.youtube.com/watch?v=5nMKEKV0acI" target="_blank" rel="noopener noreferrer">Steam Integration tutorial</a> on my YouTube channel, and to my surprise... it resonated with many fellow devs!</p>
 <div style="position:relative;padding-bottom:56.25%;height:0"><iframe src="https://www.youtube.com/embed/5nMKEKV0acI" title="Steam Integration in Unreal Engine" frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 <p>The response sparked something: whispers of requests for more, echoes of curiosity, and the realization that maybe, just maybe, there’s a fellowship out there looking for something better than what we’ve got now.</p>
 <p>Still, I didn’t want to rush into battle unprepared. Life, after all, is filled with quests of its own—work obligations, family, and my own personal game dev project that gnaws at my attention like a hungry mimic. So I waited, sharpened my tools, and charted a path.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-the-dungeon-of-existing-resources">⚔️ The Dungeon of Existing Resources<a href="https://hanayou.github.io/blog/welcome#%EF%B8%8F-the-dungeon-of-existing-resources" class="hash-link" aria-label="Direct link to ⚔️ The Dungeon of Existing Resources" title="Direct link to ⚔️ The Dungeon of Existing Resources">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-the-dungeon-of-existing-resources">⚔️ The Dungeon of Existing Resources<a href="https://unreal-chronicle.hanayou.dev/blog/welcome#%EF%B8%8F-the-dungeon-of-existing-resources" class="hash-link" aria-label="Direct link to ⚔️ The Dungeon of Existing Resources" title="Direct link to ⚔️ The Dungeon of Existing Resources">​</a></h2>
 <p>Unreal Engine’s documentation is a decent spellbook... but for many brave adventurers—especially beginners or those mid-way through their journey—it often feels like it speaks in riddles.</p>
 <p>Many of the tutorials out there suffer from cursed conditions:</p>
 <ul>
@@ -33,7 +33,7 @@
 <li>🔍 <strong>Hard to find your way back</strong>: Video formats make it tough to search or re-trace your steps quickly.</li>
 <li>🔐 <strong>Too specific</strong>: You often learn how to copy the tutorial you're following—but not why it works. That leads to the familiar comments: "How do I add multiplayer?" or "How can I change it to X instead?" The arcane system remains locked without deeper understanding.</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-a-new-forge-what-this-site-hopes-to-be">🛠️ A New Forge: What This Site Hopes to Be<a href="https://hanayou.github.io/blog/welcome#%EF%B8%8F-a-new-forge-what-this-site-hopes-to-be" class="hash-link" aria-label="Direct link to 🛠️ A New Forge: What This Site Hopes to Be" title="Direct link to 🛠️ A New Forge: What This Site Hopes to Be">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-a-new-forge-what-this-site-hopes-to-be">🛠️ A New Forge: What This Site Hopes to Be<a href="https://unreal-chronicle.hanayou.dev/blog/welcome#%EF%B8%8F-a-new-forge-what-this-site-hopes-to-be" class="hash-link" aria-label="Direct link to 🛠️ A New Forge: What This Site Hopes to Be" title="Direct link to 🛠️ A New Forge: What This Site Hopes to Be">​</a></h2>
 <p><strong>Unreal Chronicle</strong> is my answer to all that.</p>
 <p>Here's what I aim to create:</p>
 <ul>
@@ -43,10 +43,10 @@
 <li>🎥 <strong>YouTube video + written companion guides</strong>, for visual learners <em>and</em> those who prefer silent study.</li>
 <li>🧙‍♂️ <strong>A beginner's path</strong>—a journey from novice to confident dev, with guidance every step of the way.</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-join-the-fellowship">🏰 Join the Fellowship<a href="https://hanayou.github.io/blog/welcome#-join-the-fellowship" class="hash-link" aria-label="Direct link to 🏰 Join the Fellowship" title="Direct link to 🏰 Join the Fellowship">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-join-the-fellowship">🏰 Join the Fellowship<a href="https://unreal-chronicle.hanayou.dev/blog/welcome#-join-the-fellowship" class="hash-link" aria-label="Direct link to 🏰 Join the Fellowship" title="Direct link to 🏰 Join the Fellowship">​</a></h2>
 <p>This is just the first page in a tome I hope will grow into something vast and valuable. My hope is that these guides become helpful scrolls for those just starting out, or reference materials for fellow developers looking to polish specific skills.</p>
 <p>So ready your tools, fellow traveler. The dungeons of Unreal Engine await.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-the-living-grimoire">📜 The Living Grimoire<a href="https://hanayou.github.io/blog/welcome#-the-living-grimoire" class="hash-link" aria-label="Direct link to 📜 The Living Grimoire" title="Direct link to 📜 The Living Grimoire">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-the-living-grimoire">📜 The Living Grimoire<a href="https://unreal-chronicle.hanayou.dev/blog/welcome#-the-living-grimoire" class="hash-link" aria-label="Direct link to 📜 The Living Grimoire" title="Direct link to 📜 The Living Grimoire">​</a></h3>
 <p>This tome is not sealed.</p>
 <p>The source code for <strong>Unreal Chronicle</strong>—including every scroll, diagram, and incantation—is open to brave souls via <a href="https://github.com/your-repo-here" target="_blank" rel="noopener noreferrer">GitHub</a>. If you spot a troublesome typo-beast, unclear incantation, or an ancient spell in need of modern context, your contributions are most welcome.</p>
 <p>Together, we build this Chronicle—not as lone mages in separate towers, but as a fellowship of knowledge-seekers crafting a clearer path through the Unreal wilds.</p>
