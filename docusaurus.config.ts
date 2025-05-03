@@ -7,7 +7,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
   title: "Unreal Chronicle",
   tagline: "An adventurer’s handbook to Unreal Engine",
-  favicon: "unreal-engine2.svg",
+  favicon: "img/unreal-engine-logo.svg",
 
   // Set the production url of your site here
   url: "https://unreal-chronicle.hanayou.dev",
@@ -75,7 +75,8 @@ const config: Config = {
       },
       {
         name: "og:image",
-        content: "https://unreal-chronicle.hanayou.dev/unreal-engine2.svg",
+        content:
+          "https://unreal-chronicle.hanayou.dev/img/open-graph-thumbnail.png",
       },
       { name: "og:url", content: "https://unreal-chronicle.hanayou.dev" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -86,17 +87,18 @@ const config: Config = {
       },
       {
         name: "twitter:image",
-        content: "https://unreal-chronicle.hanayou.dev/unreal-engine2.svg",
+        content:
+          "https://unreal-chronicle.hanayou.dev/img/open-graph-thumbnail.png",
       },
     ],
 
     // Replace with your project's social card
-    image: "unreal-engine2.svg",
+    image: "img/unreal-engine-logo.svg",
     navbar: {
       title: "Unreal Chronicle",
       logo: {
         alt: "Site Logo",
-        src: "unreal-engine2.svg",
+        src: "img/unreal-engine-logo.svg",
       },
       items: [
         {
