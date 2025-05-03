@@ -67,6 +67,29 @@ const config: Config = {
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
+    metadata: [
+      { name: "og:title", content: "Unreal Chronicle" },
+      {
+        name: "og:description",
+        content: "An adventurer’s handbook to Unreal Engine",
+      },
+      {
+        name: "og:image",
+        content: "https://unreal-chronicle.hanayou.dev/unreal-engine2.svg",
+      },
+      { name: "og:url", content: "https://unreal-chronicle.hanayou.dev" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Unreal Chronicle" },
+      {
+        name: "twitter:description",
+        content: "An adventurer’s handbook to Unreal Engine",
+      },
+      {
+        name: "twitter:image",
+        content: "https://unreal-chronicle.hanayou.dev/unreal-engine2.svg",
+      },
+    ],
+
     // Replace with your project's social card
     image: "unreal-engine2.svg",
     navbar: {
