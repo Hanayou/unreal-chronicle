@@ -10,7 +10,7 @@ const config: Config = {
   favicon: "unreal-engine2.svg",
 
   // Set the production url of your site here
-  url: "https://unreal-chronicle.hanayou.dev/",
+  url: "https://unreal-chronicle.hanayou.dev",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -19,6 +19,8 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "Hanayou", // Usually your GitHub org/user name.
   projectName: "unreal-chronicle", // Usually your repo name.
+  deploymentBranch: "gh-pages",
+  trailingSlash: false,
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -101,7 +103,7 @@ const config: Config = {
           items: [
             {
               label: "Guides",
-              to: "/docs/intro",
+              to: "/docs/introduction",
             },
             {
               label: "Blog",
