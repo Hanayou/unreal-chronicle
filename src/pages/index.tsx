@@ -9,7 +9,7 @@ export default function Home(): React.ReactNode {
       description="An adventurer’s handbook to Unreal Engine"
     >
       <main className={styles.hero}>
-        <img src="/unreal-engine2.svg" className={styles.glow} />
+        <img src="img/unreal-engine-logo.svg" className={styles.glow} />
         <div className={styles.heroInner}>
           <h1 className={styles.title}>Unreal Chronicle</h1>
           <p className={styles.subtitle}>
