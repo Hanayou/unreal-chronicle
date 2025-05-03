@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://unreal-chronicle.hanayou.dev/blog"/>
     <subtitle>Unreal Chronicle Blog</subtitle>
-    <icon>https://unreal-chronicle.hanayou.dev/unreal-engine2.svg</icon>
+    <icon>https://unreal-chronicle.hanayou.dev/img/unreal-engine-logo.svg</icon>
     <entry>
         <title type="html"><![CDATA[Welcome to Unreal Chronicle – An Adventurer’s Guide to Unreal Engine]]></title>
         <id>https://unreal-chronicle.hanayou.dev/blog/welcome</id>
