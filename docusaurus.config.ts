@@ -68,17 +68,17 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     metadata: [
-      { name: "og:title", content: "Unreal Chronicle" },
+      { property: "og:title", content: "Unreal Chronicle" },
       {
-        name: "og:description",
+        property: "og:description",
         content: "An adventurer’s handbook to Unreal Engine",
       },
       {
-        name: "og:image",
+        property: "og:image",
         content:
           "https://unreal-chronicle.hanayou.dev/img/open-graph-thumbnail.png",
       },
-      { name: "og:url", content: "https://unreal-chronicle.hanayou.dev" },
+      { property: "og:url", content: "https://unreal-chronicle.hanayou.dev" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Unreal Chronicle" },
       {
