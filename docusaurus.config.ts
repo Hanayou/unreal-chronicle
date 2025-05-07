@@ -41,7 +41,7 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/Hanayou/unreal-chronicle",
+          editUrl: "https://github.com/Hanayou/unreal-chronicle/tree/main",
         },
         blog: {
           showReadingTime: true,
@@ -59,6 +59,14 @@ const config: Config = {
         },
       } satisfies Preset.Options,
     ],
+  ],
+
+  scripts: [
+    {
+      src: "https://cloud.umami.is/script.js",
+      async: true,
+      "data-website-id": "4f4c8f4c-54ee-4b96-9c4b-01129acaa7e5",
+    },
   ],
 
   themeConfig: {
