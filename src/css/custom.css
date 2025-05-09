@@ -48,3 +48,14 @@
   border: 1px solid #ccc;
   font-size: 0.85em;
 }
+
+.medium-zoom-overlay {
+  backdrop-filter: blur(8px);
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.2
+  ); /* semi-transparent black, or use transparent if preferred */
+  transition: backdrop-filter 0.3s ease;
+}

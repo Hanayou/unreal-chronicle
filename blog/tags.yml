@@ -2,3 +2,18 @@ announcement:
   label: Announcement
   permalink: /announcement
   description: General announcements and updates
+
+multiplayer:
+  label: Multiplayer
+  permalink: /multiplayer
+  description: Articles for multiplayer and co-op play
+
+steam:
+  label: Steam
+  permalink: /steam
+  description: Articles for Steam integration
+
+blueprints:
+  label: Blueprints
+  permalink: /blueprints
+  description: Articles for blueprints
