@@ -68,6 +68,7 @@ const config: Config = {
       "data-website-id": "4f4c8f4c-54ee-4b96-9c4b-01129acaa7e5",
     },
   ],
+  plugins: ["plugin-image-zoom"],
 
   themeConfig: {
     colorMode: {
@@ -164,6 +165,15 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    imageZoom: {
+      // CSS selector to apply the plugin to, defaults to '.markdown img'
+      selector: ".markdown img",
+      // Optional medium-zoom options
+      // see: https://www.npmjs.com/package/medium-zoom#options
+      options: {
+        background: "transparent",
+      },
     },
   } satisfies Preset.ThemeConfig,
 };
