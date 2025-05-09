@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkunreal_chronicle=self.webpackChunkunreal_chronicle||[]).push([[121],{8070:e=>{e.exports=JSON.parse('{"tags":[{"label":"Announcement","permalink":"/blog/tags/announcement","count":1}]}')}}]);
