@@ -1,7 +1,7 @@
 ---
 title: "Steam Advanced Sessions Setup"
 description: "Set up the Advanced Sessions Plugin to allow you to play with friends over Steam using Blueprints only."
-slug: /miscallenous/advanced-sessions-setup
+slug: /miscellenous/advanced-sessions-setup
 authors: [hanayou]
 tags: [multiplayer, steam, blueprints]
 ---
