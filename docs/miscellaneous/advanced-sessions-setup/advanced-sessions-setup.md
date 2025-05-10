@@ -1,6 +1,6 @@
 ---
-title: "Steam Advanced Sessions Plugin Setup Guide"
-description: "How to use Steam Advanced Sessions Plugin in Unreal Engine using only Blueprints"
+title: "Steam Advanced Sessions Setup"
+description: "Set up the Advanced Sessions Plugin to allow you to play with friends over Steam using Blueprints only."
 slug: steam-advanced-sessions-setup
 authors: [hanayou]
 tags: [multiplayer, steam, blueprints]
@@ -8,7 +8,7 @@ tags: [multiplayer, steam, blueprints]
 
 import YouTube from '@site/src/components/YouTube';
 
-# Steam Advanced Sessions Plugin Setup Guide
+# Steam Advanced Sessions Setup
 
 This guide covers how set up the **Advanced Sessions Plugin** to allow you to play with friends over Steam using **Blueprints only**.
 
