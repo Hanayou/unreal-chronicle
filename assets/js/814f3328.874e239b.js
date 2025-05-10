@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkunreal_chronicle=self.webpackChunkunreal_chronicle||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome to Unreal Chronicle \u2013 An Adventurer\u2019s Guide to Unreal Engine","permalink":"/blog/welcome","unlisted":false,"date":"2025-05-03T00:00:00.000Z"}]}')}}]);

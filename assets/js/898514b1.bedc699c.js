@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkunreal_chronicle=self.webpackChunkunreal_chronicle||[]).push([[67],{9187:e=>{e.exports=JSON.parse('{"tags":[{"label":"multiplayer","permalink":"/docs/tags/multiplayer","count":1},{"label":"steam","permalink":"/docs/tags/steam","count":1},{"label":"blueprints","permalink":"/docs/tags/blueprints","count":1}]}')}}]);
